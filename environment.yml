@@ -1,0 +1,23 @@
+name: hic
+channels:
+    - conda-forge
+    - defaults
+    - bioconda
+dependencies:
+    - python=3.9
+    - pip
+    - cython
+    - numpy
+    - numba
+    - h5py
+    - pysam
+    - pip:
+        - jupyterlab
+        - ipython
+        - ipywidgets
+        - pytest
+        - nbsmoke
+        - seaborn
+        - pybbi
+        - cooltools==0.5.2
+	- resgen-python
