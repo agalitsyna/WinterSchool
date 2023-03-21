@@ -4,7 +4,7 @@ channels:
     - defaults
     - bioconda
 dependencies:
-    - python=3.9
+    - python=3.10
     - pip
     - cython
     - numpy
@@ -15,9 +15,10 @@ dependencies:
         - jupyterlab
         - ipython
         - ipywidgets
+        - ipykernel
         - pytest
         - nbsmoke
         - seaborn
         - pybbi
         - cooltools==0.5.2
-	- resgen-python
+        - resgen-python
